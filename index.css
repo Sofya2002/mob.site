@@ -1,0 +1,23 @@
+.button {
+    background: #f1b100;
+    border-radius: 100px;
+    padding: 30px 70px;
+    color: #b45100;
+    text-decoration: none;
+    font-size: 1.45em;
+    margin: 0 15px;
+    font-size: 2.2rem;
+  }
+  
+  /* Hover state animation applied here */
+  .button:hover { 
+    -webkit-animation: hover 1200ms linear 2 alternate;
+    animation: hover 1200ms linear 2 alternate;
+  }
+  
+  /* Active state animation applied here */
+  .button:active {
+    -webkit-animation: active 1200ms ease 1 alternate;
+    animation: active 1200ms ease 1 alternate; 
+    background: #5F9BE0;
+  }
